@@ -66,7 +66,53 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/*Estilização da experiência da Br Mobilidade | SPA*/
+div .exp{
+    margin: 0;
+}
+
+.exp{
+    display: flex;
+    margin-top: -2vh;
+    flex-direction: column;
+    background-image: image-set(); /*Imagem de fundo da Br Mobilidade*/
+}
+
+.exp p{
+    font-size: 8px;
+    font-style: inherit;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.exp p h1{
+    font-size: 15px;
+}
+
+.exp p span{
+    margin-top: 1vh;
+    font-size: 0.8em;
+}
+
+.exp ul{
+    margin-top: 2vh;
+    font-size: 18px;
+
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.exp ul td{
+    list-style: circle;
+}
+
+/*Estilização da experiência SPA*/
+
+.exp1 
+/*Footer---*/
 footer{
-    padding: 2rem;
+    padding: 6vh;
     background-color: black;
 }
