@@ -76,7 +76,23 @@ div .exp{
     display: flex;
     margin-top: -2vh;
     flex-direction: column;
-    background-image: image-set(); /*Imagem de fundo da Br Mobilidade*/
+}
+
+.exp img {
+    width: 150px;
+    height: 150px;
+}
+
+/*Estilização logo BR Mobilidade*/
+#Brmobilidade{
+        width: 120px;
+        height: 120px;
+}
+
+/*Estilização logo SPA*/
+#SPA{
+    width: 210px;
+    height: 120px;
 }
 
 .exp p{
@@ -91,12 +107,16 @@ div .exp{
     font-size: 15px;
 }
 .exp h4{
-    margin: 5px;
+    font-size: 14px;
+
 }
 
 .exp h4 p{
-    font-size: 15px;
-    margin-top: -1vh;
+    font-size: 16px;
+    margin-top: 1px;
+    font-weight: 300;
+
+    margin-bottom: 1vh;
 }
 
 .exp p span{
