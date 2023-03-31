@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+
+html{
+    background-image: linear-gradient(#151516, #303030);
+    height: max-content;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    justify-content: center;
+}
+
+main{
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.profile{
+    box-shadow: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
+
+.profile h4{
+    margin-top: 1vh;
+}
+
+/*Footer---*/
+footer{
+    padding: 6vh;
+    background-color: black;
+}

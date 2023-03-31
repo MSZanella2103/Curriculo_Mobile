@@ -1,0 +1,16 @@
+.formation{
+    margin: 0 0 0 0;
+    padding: 15px;
+}
+
+.formation li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    list-style: circle;
+    padding: 2px;
+}
+
+a{
+    color: #3399ff;
+    padding-top: 1vh;
+}

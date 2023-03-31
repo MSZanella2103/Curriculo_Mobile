@@ -1,0 +1,66 @@
+.exp{
+    display: flex;
+    margin-top: -2vh;
+    flex-direction: column;
+}
+
+.exp img {
+    width: 150px;
+    height: 150px;
+}
+
+/*Estilização logo BR Mobilidade*/
+#Brmobilidade{
+        width: 120px;
+        height: 120px;
+}
+
+/*Estilização logo SPA*/
+#SPA{
+    width: 210px;
+    height: 120px;
+}
+
+.exp p{
+    font-size: 8px;
+    font-style: inherit;
+    
+    display: flex, none;
+    flex-direction: column;
+}
+
+.exp p h1{
+    font-size: 15px;
+}
+.exp h4{
+    font-size: 14px;
+
+}
+
+.exp h4 p{
+    font-size: 16px;
+    margin-top: 1px;
+    font-weight: 300;
+
+    margin-bottom: 1vh;
+}
+
+.exp p span{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vh;
+    font-size: 12px;
+}
+
+.exp ul{
+    margin-top: 2vh;
+
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.exp ul li{
+    list-style: circle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 2px;
+}

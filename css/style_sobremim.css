@@ -1,0 +1,26 @@
+.category{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.category div{
+    padding: 2vh;
+    margin-top: 40px;
+
+    background-color: #111111;
+    border-radius: 15px;
+}
+
+.category div h2{
+    margin-left: 0.8rem;
+    font-size: 23px;
+
+    cursor: pointer;
+}
+
+.category div p{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
