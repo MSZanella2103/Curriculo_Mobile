@@ -21,6 +21,15 @@
     height: 120px;
 }
 
+.data{
+    display: flex;
+}
+
+.data span{
+    font-weight: 200;
+    padding-left: 12px;
+}
+
 .exp p{
     font-size: 8px;
     font-style: inherit;
