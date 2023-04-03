@@ -7,10 +7,20 @@
     <title>Curriculo_Mobile</title>
 
     <!--Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <!--CSS-->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style_body.css">
+    <link rel="stylesheet" href="./css/style_sobremim.css">
+    <link rel="stylesheet" href="./css/style_experiencia.css">
+    <link rel="stylesheet" href="./css/style_formacao.css">
+    <link rel="stylesheet" href="./css/style_idiomas.css">
+    <link rel="stylesheet" href="./css/style_cursos.css">
+    <link rel="stylesheet" href="./css/style_objetivo.css">
 
     <!--JS-->
+    <script defer src="./js/index.js"></script>
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +41,8 @@
         </center>
         <section class="category">
             <div> <!--Sobre mim-->
-                <h2>Sobre mim</h2>
-                <p>
+                <h2 class="button_sobremim">Sobre mim</h2>
+                <p class="show-or-hidden_sobremim">
                     Técnico em Suporte TI, muito competente para o trabalho, pois sempre me
                     mantenho atualizando das novidades do trabalho, profissionalmente eu sempre me destaquei devido
                     a facilidade de aprendizagem e rápida solução de problemas. <br>
@@ -45,48 +55,196 @@
                 <h2>Experiências</h2>
                 <div class="exp">
                     <p><h1>Jovem Aprendiz - Aux. Operacional</h1>
+                        <h4>Empresa: <p>Br Mobilidade | Sest Senat</p></h4>
+                        <center>
+                        <img id="Brmobilidade" src="./image/br_mobilidade.png" alt="Logo_BR_Mob">
+                        </center>
+                        <h4 class="data">inicio: <span>04/01/2021</span></h4>
+                        <h4 class="data">Termino: <span>27/10/2021</span></h4>
                     <span>
                         Destaque de trabalho em equipe, pelo apoio que era concedido
-                        aos efetivos, além do atendimento ao cliente o auxilio aos operadores para suprirem as necessidades
+                        aos operadores, além do atendimento ao cliente o auxilio aos operadores
+                        para suprirem as necessidades
                     </span>
                     </p>
-                    <ul> <!--Verificar lista-->
-                        <td>Atendimento ao cliênte</td>
-                        <td>Controle Operacional</td>
-                        <td>Trabaho em equipe</td>
+                    <ul>
+                        <li>Atendimento ao cliente</li>
+                        <li>Controle Operacional</li>
+                        <li>Trabaho em equipe</li>
                     </ul>
                 </div>
                 <hr>
                 <div class="exp">
                     <h1>Estagiário Suporte Técnico TI</h1>
+                    <h4>Empresa: <p>Santos Port Authority (SPA)</p></h4>
+                    <center>
+                        <img id="SPA" src="./image/logo_santos_port_authority-1024x559-removebg-preview.png" alt="Logo_SPA">
+                    </center>
+                    <h4 class="data">inicio: <span>03/01/2022</span></h4>
+                    <span>
+                        Realizo manutenção preventiva de máquinas em hardwares. Em pouco tempo me destaquei
+                        na empresa por mostrar mais habilidade na área.<br>
+                        Exerço várias funções, mesmo sendo estagiário, como por exemplo de Auxiliar de Analista Suporte TI,
+                        portanto já tendo conhecimento na função.
+                    </span>
                     <ul>
-                        <td>Manutenção de Hardware</td>
-                        <td>M</td>
+                        <li>Atendimento ao usuário</li>
+                        <li>Adminstração de laboratório</li>
+                        <li>Manutenção de Hardware</li>
+                        <li>Controle logistico de ativos (Desktop/Notebook)</li>
+                        <li>Organização de planilhas</li>
+                        <li>Atendimento por SLA</li>
+                        <li>Configuração de rede</li>
+                        <li>Backup de e-mails outlook</li>
+                        <li>Visualização de ativos por ZABBIX</li>
                     </ul>
                 </div>
             </div>
 
             <div> <!--Formação-->
                 <h2>Formação</h2>
+                <div class="formation">
+                    <h3>Ensino Superior - Cursando</h3>
+                    <ul>
+                        <li>Universidade Católica de Santos (UNISANTOS)</li>
+                        <li>Noturno</li>
+                        <li>Ciência da Computação</li>
+                        <li>Termino Previsto: DEZ/2023</li>
+                    </ul>
+                </div>
+                <a href="https://www.unisantos.br/">Site oficial UNISANTOS</a>
             </div>
 
-            <div>
+            <div> <!--Idiomas-->
                 <h2>idiomas</h2>
+                <h4 class="idioma">inglês</h4>
+                <center>
+                    <table class="avaliacao">
+                        <tr>
+                            <th>Fala</th>
+                            <th>Audição</th>
+                            <th>Leitura</th>
+                        </tr>
+                        <tr align="center">
+                            <td> <!--Fala Inglês-->
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </td>
+                            <td>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </td>
+                            <td>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+                <h4 class="idioma">Espanhol</h4>
+                <center>
+                    <table class="avaliacao">
+                        <tr>
+                            <th>Fala</th>
+                            <th>Audição</th>
+                            <th>Leitura</th>
+                        </tr>
+                        <tr align="center">
+                            <td>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </td>
+                            <td>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </td>
+                            <td>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
             </div>
 
-            <div>
+            <div> <!--Cursos-->
                 <h2>Cursos</h2>
+
+                <h3 class="curso">Suporte Técnico TI na Prática</h3>
+                <span  class="horas"><h4>Horas de aprendizado: </h4> 8.5h</span>
+
+                <h4>Competencias do curso</h4>
+                <ul class="aprendizado">
+                    <li>Comandos do CMD</li>
+                    <li>Intalação de impressora via executavel e IP</li>
+                    <li>Criação de máquina virtual</li>
+                    <li>Formatação de computador</li>
+                    <li>Aprender a solucionar problemas diversos da área TI</li>
+                    <li>Entendendo Active Directory (AD)</li>
+                    <li>Configuração de e-mail para dominio especifico</li>
+                </ul>
+                <h5 id="certificado">Link de certificado</h5>
+                <a href="https://www.udemy.com/certificate/UC-03dc3427-8f09-4d42-a7ad-cec12c0cca39/">Certificado</a>
+
+                <h3 class="curso">Cultural Norte Americano (CNA)</h3>
+                <span  class="horas"><h4>Horas de aprendizado: </h4> 80h</span>
+
+                <ul class="aprendizado">
+                    <li>Talk about past Present and Future</li>
+                    <li>Talk about what annoys you makes you happy</li>
+                    <li>Tell a story from different points view</li>
+                    <li>Dicuss different types intelligence</li>
+                    <li>Dicuss festivals and celebrations country</li>
+                    <li>Talk about human achivements</li>
+                    <li>Organize an excursion</li>
+                    <li>Write a book or book review</li>
+                    <li>Prevent viewson a given topic</li>
+                    <li>Write a formal and informal messages</li>
+                    <li>Make Decisions</li>
+                </ul>
+                <div id="english_certification">
+                    <center>
+                    <img src="./image/Certificado_frente.jpg" alt="English Certification Front">
+                    <img src="./image/Certificado_verso.jpg" alt="English Certification Back">
+                    </center>
+                </div>
             </div>
 
-            <div>
+            <div> <!--Obejtivo Profissional-->
                 <h2>Objetivo Profissional</h2>
+                <div>
+                    <span>
+                        Pretendo me aprimorar o maximo possivel, desafiando o meu limite usando isso como meu trabalho
+                        pretendo ingressar no mínimo um <h4>Analista de Suporte TI</h4>, realizando cursos práticos e adiquirindo
+                        mais experiencia me deixando mais eficiente. Gosto de me sentir o melhor mas não quero realizar esse feito
+                        com disputas, melhorando assim não só meu trabalho em equipe mas meu ambiente de trabalho.
+                    </span>
+                </div>
             </div>
 
-            <div>
+            <div> <!--Habilidades-->
                 <h2>Habilidades</h2>
             </div>
 
-            <div>
+            <div> <!--Conhecimentos-->
                 <h2>Conhecimentos</h2>
             </div>
 
