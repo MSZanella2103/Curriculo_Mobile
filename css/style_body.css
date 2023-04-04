@@ -48,6 +48,12 @@ a{
 
 /*Footer---*/
 footer{
-    padding: 6vh;
+    padding: 2rem;
     background-color: black;
+    font-size: 0.800rem;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
 }
