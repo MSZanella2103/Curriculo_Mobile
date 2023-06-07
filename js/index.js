@@ -8,10 +8,10 @@ for (let i = 0; i < titulos.length; i++) {
     const conteudo = this.nextElementSibling;
     
     // Altera a visibilidade do conteúdo
-    if (conteudo.style.display === 'none') {
-      conteudo.style.display = 'block';
-    } else {
+    if (conteudo.style.display === 'block') {
       conteudo.style.display = 'none';
+    } else {
+      conteudo.style.display = 'block';
     }
   });
 }
