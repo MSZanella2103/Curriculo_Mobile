@@ -1,10 +1,17 @@
-var btn = document.querySelector('.button_sobremim');
-var description = document.querySelector('.show-or-hidden_sobremim')
+// Obtém todos os elementos com a classe "titulo"
+const titulos = document.getElementsByClassName('titulo');
 
-btn.addEventListener('click', function(){
-    if(description.style.display === 'block'){
-        description.style.display = 'none';
+// Percorre os elementos e adiciona um ouvinte de evento a cada um
+for (let i = 0; i < titulos.length; i++) {
+  titulos[i].addEventListener('click', function() {
+    // Obtém o próximo elemento irmão
+    const conteudo = this.nextElementSibling;
+    
+    // Altera a visibilidade do conteúdo
+    if (conteudo.style.display === 'none') {
+      conteudo.style.display = 'block';
     } else {
-        description.style.display = 'block';
+      conteudo.style.display = 'none';
     }
-});
+  });
+}

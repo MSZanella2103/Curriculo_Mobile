@@ -9,6 +9,10 @@
     height: 150px;
 }
 
+.hide-div{
+    display: none;
+}
+
 /*Estilização logo BR Mobilidade*/
 #Brmobilidade{
         width: 120px;

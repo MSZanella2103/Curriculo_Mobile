@@ -1,6 +1,7 @@
 .formation{
     margin: 0 0 0 0;
     padding: 15px;
+    display: none;
 }
 
 .formation li{
