@@ -45,12 +45,16 @@ main{
 a{
     color: #3399ff;
 }
+h4 a{
+    color: white;
+    font-size: 26px;
+}
 
 /*Footer---*/
 footer{
     padding: 2rem;
     background-color: black;
-    font-size: 0.800rem;
+    font-size: 14px;
 }
 
 .footer-info{
