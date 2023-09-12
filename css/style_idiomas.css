@@ -1,26 +1,28 @@
 .idioma{
-    margin-top: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     font-size: 20px;
 
-}
+    display: flex;
 
-.avaliacao{
-    display: table;
-    border-spacing: 0.5rem;
-
+    flex-direction: column;
 
 }
 
-.fa-star{
-    width: 0.8rem;
-    justify-content: center;
-
+table{
+    padding-left: 1em;
+    padding-right: 1em;
+    
 }
 
-.checked{
-    color: yellow;
+tr{
+    font-size: 15px;
 }
 
-.avaliacao td{
-    width: 5rem;
+td{
+    font-size: 12px;
+}
+
+table, th, td{
+    padding: 0 0.4em 0 0.4em;
 }
