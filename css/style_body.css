@@ -32,6 +32,15 @@ main{
     align-items: center;
 }
 
+.profile div{
+    margin-top: 2vh;
+}
+
+.profile div h3{
+    padding: 0.4rem;
+    
+}
+
 .profile img{
     width: 25vh;
     height: 25vh;
@@ -40,6 +49,7 @@ main{
 
 .profile h4{
     margin-top: 1vh;
+    font-size: 30px;
 }
 
 a{
